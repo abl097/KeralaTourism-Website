@@ -8,7 +8,6 @@
 }
 .logo{
     margin-left: 10px;
-    border-radius: 50%;
     width: 80px;
     margin-left: 20px;
 }
@@ -19,11 +18,11 @@
 .nav-title{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 36px;
-    color: white;
+    color: #ffffff;
 }
 .nav-writing{
     font-family:Arial, Helvetica, sans-serif ;
-    color: white;
+    color: #ffffff;
 }
 #navbarText a{
    padding-left: 20px;
@@ -34,7 +33,7 @@
   margin-left: 20px;
 }
 #navbarText a{
-  color: white;
+  color: #ffffff;
 }
 /* Navbar */
 #carouselExampleInterval{
@@ -69,7 +68,7 @@
   bottom: 0;
   width: 100%;
   background-color: #0e833b;
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 25px;
   padding-top: 20px;
@@ -106,7 +105,7 @@ a:hover{
   border: 0.40rem solid #f8f9fa;
   top: 300px;
   position: relative;
-  background-color: white;
+  background-color: #ffffff;
 }
 .card-title a{
     text-decoration: none;
@@ -129,7 +128,7 @@ a:hover{
 .btn{
   padding: 0.6rem 1.2rem;
 
-  border: 2px solid dodgerblue;
+  border: 2px solid #1E90FF;
 }
 .btn-primary:hover {
     background-color: #df8c96;
