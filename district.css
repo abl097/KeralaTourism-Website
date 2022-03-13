@@ -1,0 +1,58 @@
+
+.titleHead{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: black;
+    font-size: 60px;
+}
+.titleImage{
+    width: 100%;
+}
+.content{
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.body{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.cardD{
+    margin-top: 40px;
+}
+.card-titleD{
+    font-size: 25px;
+}
+.IconsD{
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 450px;
+    background-color: white;
+    color: black;
+}
+.footerD{
+
+    position: relative;
+    width: 100%;
+    background-color: #0e833b;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+/* ------------ */
+.cardDm{
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center; 
+}
+.cardDm a{
+    color: white;
+    text-decoration: none;
+}
