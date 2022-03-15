@@ -31,10 +31,15 @@
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #navbarText{
-  margin-left: 20px;
+  margin-left: 700px;
 }
 #navbarText a{
   color: white;
+}
+@media only screen and (max-width:769px){
+  #navbarText{
+    margin-left: 100px;
+  }  
 }
 /* Navbar */
 #carouselExampleInterval{
