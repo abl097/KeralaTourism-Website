@@ -26,21 +26,28 @@
     color: white;
 }
 #navbarText a{
-   padding-left: 35px;
    font-size: 20px;
+   color: white;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #navbarText{
   margin-left: 700px;
 }
-#navbarText a{
-  color: white;
+
+#navbarText li{
+  padding-left: 35px;
+}
+@media only screen and (min-width:769px){
+  #navbarText a:hover{
+  background-color: white;
+  border-radius: 21px;
+  color: #0e833b;
+  }
 }
 @media only screen and (max-width:769px){
   #navbarText{
     margin-left: 100px;
   }
-  
 }
 /* Navbar */
 #carouselExampleInterval{
@@ -51,23 +58,53 @@
   height: 650px;
 }
 .About{
-  padding: 50px;
+  padding-top: 150px;
+  padding-left: 550px;
   font-size: 22px;
   text-align: justify;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.About p{
+  width: 800px;
+  margin-left: 100px;
+}
+#kathakImage img{
+  margin-left: 550px;
+  width: 800px;
+}
+@media only screen and (max-width:769px){
+  #kathakImage{
+    display: none;
+  }
+  .About p{
+    width: 500px;
+    margin-left:100px;
+  }
+}
 #topDestinations{
   margin-top: 80px;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: 900;
 }
 .card-group{
   margin-top: 50px;
   padding-left: 85px;
   padding-right: 85px;
+  text-align: center;
 }
 .card-group2{
   margin-top: 50px;
   padding-left: 85px;
   padding-right: 85px;
+  text-align: center;
+}
+.card-body{
+  /* background-color: #ACB992; */
+  /* color: white; */
+  font-family: basel-neue, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 /* footer */
 .footer {
