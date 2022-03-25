@@ -109,18 +109,18 @@ function validate2(){
 
 function pass_strength(){
     if(PM_regex.test(pass.value)===false){
-        lpass.innerHTML = "Password Srength: weak";
+        lpass.innerHTML = "Password Strength: weak";
         lpass.style.color = "red";
         return
     }
     else if(pass.value.length<8){
-        lpass.innerHTML = "Password Srength: medium";
+        lpass.innerHTML = "Password Strength: medium";
         lpass.style.color = "orange";
         return
     }
     else {
         lpass.innerHTML = "Good";
-        lpass.style.color = "Password Srength: green";
+        lpass.style.color = "Password Strength: green";
         return true;
     }
 }
