@@ -21,50 +21,58 @@ background-size: cover;" background="./images/signupbg.jpg" >
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./district.html">Districts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#topDestinations">Top Destinations</a>
+              <a class="nav-link" href="#topDestinations">Top Destinations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./login.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Signup</a>
+              <a class="nav-link" href="./signup.html">Signup</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#contactUS">Contact Us</a>
+              <a class="nav-link" href="#contactUS">Contact Us</a>
             </li>
           </ul>
       </div>
     </nav>
 </div>
-
 <!-- nav bar ends -->
-    <!-- login form starts here -->
+
+    <!-- signup form starts here -->
     <div class="container">
         <div class="row justify-content-center">
         <div class="col-md-5">
          <div class="cardL">
            <h2 class="card-title text-center">keralatourism<a href="./index.html">.org</a></h2>
             <div class="card-body py-md-4">
-             <form _lpchecked="1">
+             <form _lpchecked="1" action="./index.html" onsubmit="return validate2();">
                 <div class="form-group">
                    <input type="text" class="form-control" id="name" placeholder="Name">
+                   <label for="error" id="Nerror"></label> 
               </div>
               <div class="form-group">
                    <input type="email" class="form-control" id="email" placeholder="Email">
+                   <label for="error" id="Eerror"></label> 
               </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="phn" placeholder="Phone Number">
+                <label for="error" id="PHerror"></label> 
+           </div>
                                   
                                 
          <div class="form-group">
-           <input type="password" class="form-control" id="password" placeholder="Password">
+           <input type="text" class="form-control" id="password" placeholder="Password" onkeyup="pass_strength();">
+           <label for="error" id="Perror"></label> 
          </div>
          <div class="form-group">
-            <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+            <input type="text" class="form-control" id="confirm-password" placeholder="confirm-password">
+            <label for="error" id="CPerror"></label> 
          </div>
          <div class="d-flex flex-row align-items-center justify-content-between">
             <a href="./login.html">Login</a>
@@ -76,6 +84,7 @@ background-size: cover;" background="./images/signupbg.jpg" >
       </div>
       </div>
       </div>
-    <!-- login form ends here -->
+    <!-- signup form ends here -->
+<script src="script.js"></script>
 </body>
 </html>
