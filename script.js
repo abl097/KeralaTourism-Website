@@ -119,9 +119,21 @@ function pass_strength(){
         return
     }
     else {
-        lpass.innerHTML = "Good";
-        lpass.style.color = "Password Strength: green";
+        lpass.innerHTML = "Password Strength: Good";
+        lpass.style.color = "green";
         return true;
+    }
+}
+
+// -------------------//
+function display(){
+    if((name.value!="") || (email.value!="") || (phn.value!="") || (cpass.value!="")){
+    lname.innerHTML = "";
+    lmail.innerHTML = "";
+    lphn.innerHTML = "";
+    lcpass.innerHTML = "";
+    
+    return;
     }
 }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Signup Page</title>
+    <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -27,16 +27,16 @@ background-size: cover;" background="./images/signupbg.jpg" >
               <a class="nav-link" href="./district.html">Districts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#topDestinations">Top Destinations</a>
+              <a class="nav-link" href="/index.html#topDestinations">Top Destinations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./login.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Signup</a>
+              <a class="nav-link" href="./signup.html">Signup</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#contactUS">Contact Us</a>
+              <a class="nav-link" href="./index.html#contactUs">Contact Us</a>
             </li>
           </ul>
       </div>
@@ -51,28 +51,28 @@ background-size: cover;" background="./images/signupbg.jpg" >
          <div class="cardL">
            <h2 class="card-title text-center">keralatourism<a href="./index.html">.org</a></h2>
             <div class="card-body py-md-4">
-             <form _lpchecked="1" action="./index.html" onsubmit="return validate2();">
+             <form _lpchecked="1" action="./index.html" onsubmit="return validate2();" onkeydown="return display();">
                 <div class="form-group">
                    <input type="text" class="form-control" id="name" placeholder="Name">
-                   <label for="error" id="Nerror"></label> 
+                   <label for="error" id="Nerror" class="labels"></label> 
               </div>
               <div class="form-group">
                    <input type="email" class="form-control" id="email" placeholder="Email">
-                   <label for="error" id="Eerror"></label> 
+                   <label for="error" id="Eerror" class="labels"></label> 
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" id="phn" placeholder="Phone Number">
-                <label for="error" id="PHerror"></label> 
+                <label for="error" id="PHerror" class="labels"></label> 
            </div>
                                   
                                 
          <div class="form-group">
-           <input type="text" class="form-control" id="password" placeholder="Password" onkeyup="pass_strength();">
-           <label for="error" id="Perror"></label> 
+           <input type="password" class="form-control" id="password" placeholder="Password" onkeyup="pass_strength();">
+           <label for="error" id="Perror" class="labels"></label> 
          </div>
          <div class="form-group">
-            <input type="text" class="form-control" id="confirm-password" placeholder="confirm-password">
-            <label for="error" id="CPerror"></label> 
+            <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+            <label for="error" id="CPerror" class="labels"></label> 
          </div>
          <div class="d-flex flex-row align-items-center justify-content-between">
             <a href="./login.html">Login</a>
