@@ -125,7 +125,7 @@ function pass_strength(){
     }
 }
 
-// -------------------//
+// --------input label reset-----------//
 function display(){
     if((name.value!="") || (email.value!="") || (phn.value!="") || (cpass.value!="")){
     lname.innerHTML = "";
