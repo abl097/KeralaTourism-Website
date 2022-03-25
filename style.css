@@ -26,23 +26,15 @@
     color: white;
 }
 #navbarText a{
-   font-size: 20px;
-   color: white;
+   padding-left: 35px;
+   font-size: 15px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #navbarText{
-  margin-left: 700px;
+  margin-left: 200px;
 }
-
-#navbarText li{
-  padding-left: 35px;
-}
-@media only screen and (min-width:769px){
-  #navbarText a:hover{
-  background-color: white;
-  border-radius: 21px;
-  color: #0e833b;
-  }
+#navbarText a{
+  color: white;
 }
 @media only screen and (max-width:769px){
   #navbarText{
@@ -55,31 +47,13 @@
   margin-top: 91px;
 }
 #carouselExampleInterval img{
-  height: 650px;
+  height: 500px;
 }
 .About{
-  padding-top: 150px;
-  padding-left: 550px;
+  padding: 50px;
   font-size: 22px;
   text-align: justify;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.About p{
-  width: 800px;
-  margin-left: 100px;
-}
-#kathakImage img{
-  margin-left: 550px;
-  width: 800px;
-}
-@media only screen and (max-width:769px){
-  #kathakImage{
-    display: none;
-  }
-  .About p{
-    width: 500px;
-    margin-left:100px;
-  }
 }
 #topDestinations{
   margin-top: 80px;
@@ -147,7 +121,7 @@ a:hover{
 }
 .cardL{
   border: 0.40rem solid #f8f9fa;
-  top: 300px;
+  top: 140px;
   position: relative;
   background-color: white;
 }
@@ -165,13 +139,12 @@ a:hover{
 
     color: #000000;
     background-color: #ffffff;
-    border: 3px solid #da5767;
+    /* border: 3px solid #da5767; */
     outline: 0;
     box-shadow: none;
 }
 .btn{
   padding: 0.6rem 1.2rem;
-
   border: 2px solid dodgerblue;
 }
 .btn-primary:hover {
